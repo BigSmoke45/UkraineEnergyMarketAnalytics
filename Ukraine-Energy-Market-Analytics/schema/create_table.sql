@@ -1,0 +1,22 @@
+CREATE TABLE participants (
+    number INTEGER,
+    registration_authority VARCHAR(255),
+    country_of_authority VARCHAR(100),
+    date_submission DATE,
+    date_registration DATE,
+    ecrb_code VARCHAR(50),
+    name VARCHAR(255),
+    legal_form VARCHAR(100),
+    address VARCHAR(255),
+    settlement VARCHAR(100),
+    zip_code VARCHAR(20),
+    country VARCHAR(100),
+    eic_code VARCHAR(50),
+    bic_code VARCHAR(50),
+    lei_code VARCHAR(50),
+    vat_number VARCHAR(50),
+    identification_code VARCHAR(50),
+    website VARCHAR(255),
+    webpage_disclosure VARCHAR(255),
+    date_exclusion DATE
+);
